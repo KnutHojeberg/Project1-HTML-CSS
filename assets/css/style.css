@@ -254,4 +254,17 @@ footer {
         text-align: center;
         padding: 0 20px;
     }
+
+    #more-information {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .information p {
+        width: inherit;
+        height: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
 }
