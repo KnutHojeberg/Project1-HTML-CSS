@@ -197,9 +197,9 @@ Test has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing
 Listed is the main issues discovered.
 
 1. The index.html file did not work due to the "hero-image-section" missed heading.
-- Solution: Added a <h2> element to the affected section.
+- Solution: Added a h2 element to the affected section.
 2. The footballers.html file did not work due to the "section id=photos" missed a heading.
-- Solution: Added a <h2> element to the affected section.
+- Solution: Added a h2 element to the affected section.
 3. The sign-up.html file did not work due to the "label" did not have the right value to its element on "First name", "Last name" and "Email adress".
 - Solution: Added the right value to respective "label".
  
@@ -241,7 +241,7 @@ The procedure for deployment followed the "Creating your site" steps provided in
 5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
 6. The website will deploy and the pages refreshes to provide the live link to the project.
 
-The live link can be found here - https://hannagfrorer.github.io/Learn-to-cook/
+The live link can be found here - https://knuthojeberg.github.io/Project1-HTML-CSS/
 
 ## Content 
 
@@ -251,14 +251,14 @@ The live link can be found here - https://hannagfrorer.github.io/Learn-to-cook/
 
 ## Media
 
-- All images were downloaded from [Rawpixe](https://www.rawpixel.com/) and [köket](https://www.koket.se/) and [Resept.se](https://recept.se/).
+- All images were downloaded from [Rawpixe](https://www.rawpixel.com/) and [FreeImages] (https://www.freeimages.com/)
 
 ## Credits 
 
 ### For code inspiration, design inputs, help and advice. Many thanks to:
 
-Martina Terlevic
- - My awesome mentor at Code Institute: Thank you for your help.
+Brian O´hare
+ - My mentor at Code Institute: Thank you for your help.
  
  
 
@@ -279,4 +279,4 @@ http://ami.responsivedesign.is/
 
 Best regards
 
-[Back to top](#learn-how-to-cook-online)
+[Back to top](#footballers-in-england)
