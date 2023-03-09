@@ -142,6 +142,21 @@ hr {
     border-radius: 50%;
 }
 
+/* more information */
+
+#more-information {
+    height: 100px;
+}
+
+#more {
+    text-align: center;
+}
+
+.information {
+    text-align: center;
+    margin: 20px;
+}
+
 /* footer */
 
 footer {
