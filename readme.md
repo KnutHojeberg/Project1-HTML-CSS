@@ -7,7 +7,7 @@ This website was created as an informative page about football, more specificall
 
 The website has an home page that you come to when you open the website. From the home page you got three sections with diffrent alternatives. First off an home button so you always can return to the start site, an "football gallery" section where you can see pictures about footballers in England. The last section is a form where the user can sign up for weekly email updates about footballers in England.
 
-The target group is men and women around the world who has a intrest in football.
+The target group is men and women around the world who preferably has an existing intrest for football.
 
 This website is the first of five projects that must be completed to earn a Diploma in Software Development from The Code Institute.
 
@@ -56,31 +56,30 @@ A live version of the project is here - https://knuthojeberg.github.io/Project1-
 
 This website is ment for:
 
-The target group is men and women aged 20-60+ in Europe.
+The target group is men and women, all ages around the world who preferably has an existing intrest for football.
 
 
 ### User Stories
 
-#### Existing costumer
+#### Existing user
 
- - As a customer, I want to see if there are new cooking classes to attend.
- - As a customer, I want the material to be easily accessible
- - As a customer, I want the course to be clear and affordable
+ - As a user, I want to see if there are any news that I havent read.
+ - As a user, I want the material to be easily accessible.
+ - As a user, I want the news and information to be clear and easy to read.
 
 
-#### New customer
+#### New user
 
- - As a new customer: I want to know what Learn to cook online has to offer me.
- - As a new customer: I want to feel that the structure of the course is not too cumbersome.
- - As a new customer: I want to be able to get in touch with Learn to Cook Online and clarify any questions I may have.
+ - As a new user: I want to know what Footballers in England has to offer me.
+ - As a new user: I want to feel that the structure of the website and newsletter is easy to consume and understand.
+ - As a new user: I want to be able to interact with Footballers in England on diffrent social media platforms.
 
 ### User Goals
 
- - Find information about cooking courses
- - Find information about different dishes
- - Find information on how to get in touch with Learn to Cook Online.
- - Send an inquiry to Learn to cook online via the contact form
- - Buy a course to learn how to cook a dish
+ - Find information about Footballers specifically in England
+ - Find information about how to get the information direct to me whithout being required to go on the website, hence the newsletter.
+ - Find information on how to get in touch with Footballers in England on diffrent social media platforms.
+ - Sign up for the weekly newsletter about footballers in England.
 
 ### Requirements
 
@@ -92,124 +91,95 @@ Required technologies: HTML, CSS
 
 Since this is my first HTML/CSS project, the design has been influenced by the ”Love Running” project and The Magnolia Tree website .
 
-My goal was to create a website that could bring the joy of cooking to users and the feeling of being able to learn something new, this by working with a balance between colors, images and functionality.
+My goal was to create a website that could bring joy and a deeper understanding for footballers in England and also something reoccurring through the option to sign up to the weekly newsletter. To reach this goal I was working with a balance between color, images and functionality.
 
-Learn to Cook Online is a three-page website divided into sections. The menu is fixed at the top to ensure easy navigation between pages.
+Footballers in England is a three-page website divided into sections. The menu is fixed at the top to ensure easy navigation between pages.
 
 #### Colors
 
-The color palette was created using [Coolors](https://coolors.co/).
-
-![colors](assets/images/colors.png)"colors"
+The colors used in this project was acquired through the Love Running walkthrough project and also a basic white background.
 
 #### Typography
 
-The [Google Font Fira+Sans](https://fonts.google.com/specimen/Work+Sans#styles) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 800 have been used on the website.
+The [Google Font Oswald+Lato](https://fonts.google.com/share?selection.family=Lato:ital,wght@1,300%7COswald:wght@300) was chosen as the main font with a fallback of Sans-Serif. Font weight of 300 have been used on the website.
 
 #### Images
 
-Images have been chosen in accordance to color and content. The purpose of the website is to give a calm look and express quality. Images have been sized in order to match design.
+Images have been chosen in accordance to color and content to keep the user intrested. Images have been sized in order to match design.
 
-![colors](assets/images/cooking..webp)"cooking"
-![colors](assets/images/onion.webp)"happycooking"
-![colors](assets/images/ingredienser.webp)"ingredienser"
-
+(assets/css/images/hero-image.webp)"Hero image"
+(assets/css/images/ethos-center-image.jpg)"Ethos center image"
+(assets/css/images/anfield.webp)"Anfield Stadium"
+(assets/css/images/camp-nou.jpg)"Camp Nou Stadium"
+(assets/css/images/emirates-stadium.jpg)"Emirates Stadium"
+(assets/css/images/stamford-bridge2.webp)"Stamford Bridge Stadium"
+(assets/css/images/wembley-stadium.jpg)"Wembley Stadium"
+(assets/css/images/coach.webp)"Coach with a trophy"
+(assets/css/images/football-players1.jpg)"Football players on a pitch"
+(assets/css/images/football-players2.jpg)"Young fotball players beside eachother"
 ## Features 
 
-The Learn to Cook Online website is a three-page website plus a Thank You Page that consists of the following sections:
+The Footballers in England website is a three-page website that consists of the following sections:
 
  - Header (Logo/Navigation Bar)
  - Home Page Hero Image
+ - Club Ethos Image
  - About Us
  - Footer
- - Classes Hero Image
- - Contact Hero Image
+ - Footballers Images
  - Contact Form
- - Contact Details
- - Thankyoupage Hero Image
- - Thankyou Section
-
-In order to make navigation easier between the pages, the navigation bar is fixed on top when the user scrolls up an down.
 
 ### Existing Features
 
 #### Header With Logo and Navigation Bar Section
 
-  - The Header consists of a Logo section, image-based, that is aligned to the left and a Menu that is aligned to the right.
-  - Featured on all four pages, the navigation bar includes links to the Home page, Classes page and Contact page and is identical in each page to allow for easy navigation.
-  - The Header is at a fixed position on top and follows the user as the user scrolls down the page.
+  - The Header consists of a Logo section, text-based, that is aligned to the left and a Menu that is aligned to the right.
+  - Featured on all three pages, the navigation bar includes links to the Home page, Footballers page and Sign up page and is identical in each page to allow for easy navigation.
 
-![Header and navigation](assets/images/panel.png)
+![Header and navigation](assets/css/images/Sk%C3%A4rmbild%20(5).png)
 
 #### Home Page Hero Image Section
 
-  - The Home Page Hero Image Section contains a hero image, header and a paragraph.
+  - The Home Page Hero Image Section contains a hero image which spreads across the whole page that also responds to diffrent devices.
   - The section was built to give the user a welcome feeling and convey our knowledge to the user.
   - The pictures give a feeling of knowledge and joy.
-  - The section also contains a header and a paragraph that gives the user a clear message of what the website is about.
 
-![Home Page Hero Header Section](assets/images/cooking..webp)
+![Home Page Hero Header Section](assets/css/images/hero-image.webp)
 
-#### About Us Section
+#### Club Ethos Section
+  - In the Club Ethos section, the user will find out what type of content the website offers. This by using four short paragraphs that spreads around a Club Ethos image.
+    - The purpose of the About Us section is to give users a sense of what Footballers in England is and its mission.
 
-  - In the About Us sections, the user will find out what type of cooking courses the website offers, who the courses are for and what the customer can expect when they buy one of the website's courses
-    - The purpose of the About Us section is to give users a sense of what Learn to Cook Online is and its mission.
+![Club Ethos Section](assets/css/images/ethos-center-image.jpg)
 
-![About Us Section](assets/images/about%20us.png)
+#### Want to take your football knowledge to the next level? section
 
-#### cooking courses section
+  - This section contains consists of information about what the website offers that hopefully intrigues the user.
+  - The purpose of this section is to give the user information about where they can sign up for the newsletter.
 
-  - This section contains consists of information about the various cooking courses that we offer
-  - The purpose of this section is to give the user information about which cuisines and dishes you can learn to cook.
-  - Each dish has an image that shows the dish that can be prepared, giving the user a sense of curiosity and knowledge.
-
-![About cooking courses Section](assets/images/cookingcourses1.png)
+![Want to take your football knowledge to the next level? section](assets/css/images/Sk%C3%A4rmbild%20(6).png)
 
 #### Footer Section
 
-  - The Footer contains two social media links (Facebook and Instagram). 
-  - The purpose of the Footer is to provide easy access for the user to the different social media platforms were Learn how to cook online has a presence.
+  - The Footer contains four social media links (Facebook, Twitter, Youtube and Instagram). 
+  - The purpose of the Footer is to provide easy access for the user to the different social media platforms where Footballers in England has a presence.
 
-![Footer](assets/images/footer.png)
+![Footer](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20112910.png)
 
-#### Cooking courses Hero Image Section
+#### Footballers Section
 
-  - The section contains an image of a person chopping onions to give the user a sense of knowledge.
+  - The section contains an images of diffrent football stadiums, coaches and people on football pitches.
 
-![Cooking courses Hero Image Section](assets/images/onion.webp)
+![Footballers Section](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20113020.png)
 
+#### Sign up Form Section
 
-#### Contact Hero Image Section
-
-  - This section was built to give the user a welcoming feeling and to encourage them to get in contact with the website.
-
-![Contact Hero Image Section](assets/images/ingredienser.webp)
-
-#### Contact Form Section
-
-  - The Contact Form Section has the purpose to let users get in contact with the website in a confortable, esay and fast way.
+  - The Sign up Form Section has the purpose to let users sign up for the weekly newsletter, in an esay and fast way.
   - The Form has three input fields where users must give their first name, last name and email address.
-  - Users must also chose, at least one of the options, telling what they are interested to cook.
-  - After sending the request wiht the correct information required in the fields, users will be redirected to a Thank you page.
 
-![Contact Form Section](assets/images/contactform.png)
+![Sign up Form Section](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20113112.png)
 
-#### Contact Details Section
-
-  - The Contact Details Section contains one box with all the contact information of Learn how to cook online.
-  - The box contains the telephone number and email
-  
-![Contact Details Section](assets/images/contactd.png)
-
-
-#### Thankyou Section
-
-- This section is where the user receives the confirmation that the form has been sent correctly and that it has been received by the Studio.
-
-![Thankyou Section](assets/images/thankyou.png)
-
-
-[Back to top](Learn how to cook online)
+[Back to top](Footballers in England)
 
 ## Technologies used
 
@@ -226,38 +196,35 @@ Test has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing
 
 Listed is the main issues discovered.
 
-1. The CSS file did not work with the index.html file, no style ended up on the page
- - Solution: moved the css file to the assets folder and then it works
-2. Hero-Image were not taking 100% of the screen's width.
- - Solution: Added new values in the existing media queries
-3. The page didn't cover all the way to the edge on screens that were 1920x1080
- - Solution: Added new values in the existing media queries.
-4.  Menu not properly aligned with header on small screens and it gets cropped and divided.
- - Solution: Added new values in the existing media queries.
+1. The index.html file did not work due to the "hero-image-section" missed heading.
+- Solution: Added a <h2> element to the affected section.
+2. The footballers.html file did not work due to the "section id=photos" missed a heading.
+- Solution: Added a <h2> element to the affected section.
+3. The sign-up.html file did not work due to the "label" did not have the right value to its element on "First name", "Last name" and "Email adress".
+- Solution: Added the right value to respective "label".
  
 Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other mistakes. 
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fhannagfrorer.github.io%2FLearn-to-cook%2Findex.html)
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fknuthojeberg.github.io%2FProject1-HTML-CSS%2F)
 
-![W3C HTML Validator](assets/images/htmlsignup.png)
-![W3C HTML Validator](assets/images/chekwalidator.png)
-![W3C HTML Validator](assets/images/htmlthankyou.png)
-![W3C HTML Validator](assets/images/cookincorses.png)
+![W3C HTML Validator](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20115211.png)
+![W3C HTML Validator](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20120000.png)
+![W3C HTML Validator](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20121653.png)
 
 - CSS
-  - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhannagfrorer.github.io%2FLearn-to-cook%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
+  - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fknuthojeberg.github.io%2FProject1-HTML-CSS%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-![Jigsaw validator](assets/images/w3cssny.png)
+![Jigsaw validator](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20120304.png)
 
 - Lighthouse testing
 
-![Lighthouse testing score](assets/images/lighthouse.png)
+![Lighthouse testing score](assets/css/images/Sk%C3%A4rmbild%202023-03-09%20111941.png)
 
 
- [Back to top](#Learn-how-to-cook-online)
+ [Back to top](#Footballers-in-england)
 
 ## Development and Deployment
 

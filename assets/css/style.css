@@ -19,7 +19,6 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525; 
-
 }
 
 #logo {
@@ -42,13 +41,11 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
