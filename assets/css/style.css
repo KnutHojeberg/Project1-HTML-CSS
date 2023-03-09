@@ -137,7 +137,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../css/images/ethos-center-image.jpg) no-repeat center center;
+    background: url(../css/images/ethos-center-image.jpg) no-repat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -176,4 +176,17 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* footballers */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
 }
